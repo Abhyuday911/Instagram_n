@@ -12,5 +12,4 @@ this is a web application designed to get profile data from a public/business/cr
 
 ## Screenshots
 
-![App Screenshot](./public/images/screenshot.png)
-
+![screenshot](https://user-images.githubusercontent.com/89755876/205624205-cb944d53-39f3-4537-95d5-e2251e70ba6c.png)
