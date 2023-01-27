@@ -1,8 +1,8 @@
+const download = require('image-downloader');
 var express = require('express');
 var router = express.Router();
-const spawn = require('child_process').spawn
+// const spawn = require('child_process').spawn
 const fetch = require('node-fetch');
-const download = require('image-downloader');
 
 let myarr = []
 let downloaded_src = []
@@ -79,7 +79,6 @@ router.get('/user', function (req, res, next) {
     .catch((err) => console.error(err));
 
 });
-
 // _______________________________[test-0]____________________________
 
 router.get('/last', function (req, res) {
@@ -92,10 +91,9 @@ router.get('/last', function (req, res) {
     })
     .catch((err) => console.error(err));
 })
-
 // _________________________[TESTS]_________________________
 //
-// download package test
+// dp test
 
 let cat = [
   "https://scontent-ccu1-1.cdninstagram.com/v/t51.2885-15/312231365_1821598154848092_8645531844158774081_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-ccu1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=jcQDkt8A8ywAX9Nhz5P&edm=ABZsPhsBAAAA&ccb=7-5&oh=00_AT9ufwiBivvC4E_1qo0hchGEEhHW-cIjEIFFb2Z3L9THPA&oe=635A58BE&_nc_sid=4efc9f",
