@@ -34,7 +34,7 @@ router.get('/tag', async function (req, res, next) {
         if (error) throw error
       }
     })
-    .catch(err => console.error('error:' + err));
+    .catch(err => console.send(err));
 });
 
 // For users javascript
