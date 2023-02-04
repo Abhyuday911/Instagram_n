@@ -89,7 +89,7 @@ router.get('/last', function (req, res) {
     .then(async function (json) {
       res.send(json)
     })
-    .catch((err) => res.send(err));
+    .catch((err) => res.send(err)); 
 })
 // _________________________[TESTS]_________________________
 //
