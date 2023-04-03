@@ -1,7 +1,10 @@
 
 # Instagram Scraper <b> [NodeJS] </b>
 
-this is a web application designed to get profile data from a public/business/creator instagram account or any hashtag and download the images regarding the same on your pc
+This is a web application designed to get profile data from a public/business/creator instagram account or any hashtag and download the images regarding the same on your pc.
+
+This application was my submission for the Backend web-developer competition at Sheryians Coding School. <br>
+which won me The Champions Tropy - <a href="https://www.linkedin.com/posts/abhyuday911_sheryianscodingschool-webdevelopment-backendcompetition-activity-7020302321519632384-3Ky9?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy"> https://www.linkedin.com/post </a>
 
 
 ## Challenges
@@ -14,4 +17,4 @@ this is a web application designed to get profile data from a public/business/cr
 
 ## Screenshots
 
-![screenshot](https://user-images.githubusercontent.com/89755876/205624205-cb944d53-39f3-4537-95d5-e2251e70ba6c.png)
+![screenshot png](https://user-images.githubusercontent.com/89755876/217999599-df5cb0b1-8807-4760-ba19-3807763b99c0.png)
