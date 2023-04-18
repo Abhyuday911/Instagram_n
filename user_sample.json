@@ -3753,5 +3753,6 @@
   "toast_content_on_load": null,
   "show_qr_modal": false,
   "show_view_shop": false,
-  "show_shops": "0475 3458"
+  "show_shops": "0475 3458",
+  "TAG": "https://www.instagram.com/explore/tags/"
 }

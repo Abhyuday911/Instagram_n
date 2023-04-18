@@ -16,7 +16,7 @@ router.get('/', async function (req, res, next) {
 router.get('/tag', async function (req, res, next) {
   console.log(req.query.usernameTag);
   tag = req.query.usernameTag.split('#')[1]
-  url = `https://www.instagram.com/explore/tags/${tag}/?__a=1&__d=dis`
+  url = `${process.env.TAG}${tag}${process.env.APIKEY}`
   myarr = []
   fetch(url)
     .then(response => response.json())
@@ -34,14 +34,15 @@ router.get('/tag', async function (req, res, next) {
         if (error) throw error
       }
     })
-    .catch(err => console.send(err));
+    .catch(err => console.log(err));
 });
 
 // For users javascript
 router.get('/user', function (req, res, next) {
   myarr = [];
   temp = ""
-  url = `https://instagram.com/${req.query.usernameTag}/?__a=1&__d=dis`
+  url = `${process.env.USERR}${req.query.usernameTag}${process.env.APIKEY}`
+  console.log(url);
   fetch(url)
     .then(response => response.json())
     .then(function (json) {
