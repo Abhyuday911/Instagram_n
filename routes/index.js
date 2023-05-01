@@ -14,9 +14,8 @@ router.get('/', async function (req, res, next) {
 
 // For tag javascript
 router.get('/tag', async function (req, res, next) {
-  console.log(req.query.usernameTag);
   tag = req.query.usernameTag.split('#')[1]
-  url = `${process.env.TAG}${tag}${process.env.APIKEY}`
+  url = `${process.env.TAG}${tag}${process.env.KEY}`
   myarr = []
   fetch(url)
     .then(response => response.json())
@@ -41,7 +40,7 @@ router.get('/tag', async function (req, res, next) {
 router.get('/user', function (req, res, next) {
   myarr = [];
   temp = ""
-  url = `${process.env.USERR}${req.query.usernameTag}${process.env.APIKEY}`
+  url = `${process.env.USERR}${req.query.usernameTag}${process.env.KEY}`
   console.log(url);
   fetch(url)
     .then(response => response.json())
@@ -193,6 +192,5 @@ router.get('/profiletest', async function (req, res, next) {
   }
 });
 
-// _________________________[TESTS]_________________________
 
 module.exports = router;
