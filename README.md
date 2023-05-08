@@ -4,7 +4,7 @@
 This is a web application designed to get profile data from a public/business/creator instagram account or any hashtag and download the images regarding the same on your pc.
 
 This application was my submission for the Backend web-developer competition at Sheryians Coding School. <br>
-which won me The Champions Tropy - <a href="https://www.linkedin.com/posts/abhyuday911_sheryianscodingschool-webdevelopment-backendcompetition-activity-7020302321519632384-3Ky9?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy"> https://www.linkedin.com/post </a>
+which won me The Champions Tropy - <a href="https://www.linkedin.com/posts/abhyuday911_sheryianscodingschool-webdevelopment-backendcompetition-activity-7020302321519632384-3Ky9?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy"> linkedin </a>
 
 
 ## Challenges
